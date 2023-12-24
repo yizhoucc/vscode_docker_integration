@@ -12,8 +12,9 @@
 - dockerfile (install other dependencies that are not shipped with the image)
 
 ## usage
-- cmd shift P (or >) in vscode to bring up the console.
-- use commond: 'Dev Container: Reopen in Container'
+- clone this repo and cd into the repo folder.
+- cmd+shift+P  in vscode to bring up the console.
+- type in commond: 'Dev Container: Reopen in Container'
 - then the vscode's terminal is in docker env.
-
+- to use your own env, replace the dockerfile with your own, and change the .devcontainer.json file to update the docker image name.
 
